@@ -38,3 +38,6 @@ improve the memory.
 
 If I had more time, I want to make multiple interfaces that has functionality and initialization of each buttons
 increasing cohesion. Also, I want to make checked exception manually and use it to prevent some errors.
+
+## UML Diagram
+![UML diagram](UML.png)
