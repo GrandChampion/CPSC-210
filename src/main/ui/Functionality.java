@@ -1,8 +1,8 @@
 package ui;
 
 import model.Question;
-import sun.audio.AudioPlayer;
-import sun.audio.AudioStream;
+
+import javax.sound.sampled.*;
 
 import javax.swing.*;
 import java.io.*;
@@ -173,11 +173,14 @@ public class Functionality extends Initialization {
         } else {
             soundEffectFile = new File("./data/incorrectSoundEffect.wav");
         }
-        InputStream theSound;
+        AudioInputStream theSound;
         try {
-            theSound = new FileInputStream(soundEffectFile);
-            AudioStream soundEffect = new AudioStream(theSound);
-            AudioPlayer.player.start(soundEffect);
+            theSound = AudioSystem.getAudioInputStream(soundEffectFile);
+            Clip clip = AudioSystem.getClip();
+            clip.open(theSound);
+            clip.start();
+
+
         } catch (Exception e) {
             System.out.println("Error occurred");
         }

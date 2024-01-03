@@ -1,5 +1,7 @@
 # Flash Card
 
+<img width=500 src="result.gif">
+
 ## App to check how much you know
 
 The Flash Card application will get a number of questions along with answers. Then it will display the questions to the

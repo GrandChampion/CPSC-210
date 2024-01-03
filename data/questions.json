@@ -1,30 +1,27 @@
 {
-    "questions": [
-        {
-            "code": 120,
-            "question": "Who is the PM of Canada???",
-            "answers": [
-                "Justin Trudeau",
-                "Justin",
-                "Trudeau"
-            ]
-        },
-        {
-            "code": 1000,
-            "question": "Who is the founder of Microsoft???",
-            "answers": [
-                "Bill Gates",
-                "Bill",
-                "Gates"
-            ]
-        },
-        {
-            "code": 30,
-            "question": "What is the structural layer which only exists in plant cell???",
-            "answers": [
-                "Cell Wall",
-                "cell wall"
-            ]
-        }
-    ]
+  "questions": [
+    {
+      "code": 1,
+      "question": "What year was UBC founded?",
+      "answers": [
+        "1908"
+      ]
+    },
+    {
+      "code": 2,
+      "question": "Which faculty is the Computer science in?",
+      "answers": [
+        "Science",
+        "science"
+      ]
+    },
+    {
+      "code": 3,
+      "question": "Which province is Vancouver in?",
+      "answers": [
+        "BC",
+        "British Columbia"
+      ]
+    }
+  ]
 }
