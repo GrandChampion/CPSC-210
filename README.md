@@ -1,6 +1,6 @@
 # Flash Card
 
-<img width=500 src="result.gif">
+<img width=800 src="result.gif">
 
 ## App to check how much you know
 
